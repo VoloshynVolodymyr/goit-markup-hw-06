@@ -214,42 +214,70 @@
 <!-- Футер -->
 <footer class="footer">
   <div class="container footer-container">
+    <!-- Адреса й контакти  -->
     <div class="footer-address-box">
-      <a href="./index.html " class="logo-footer"><span class="logo-accent">Web</span>Studio</a><br />
+      <a href="./index.html " class="logo-footer"><span class="logo-accent">Web</span>Studio</a
+      ><br />
       <address>
         <ul>
           <li><a href="#" class="footer-address">м. Київ, пр-т Лесі Українки, 26</a></li>
-          <li><a href="mailto:info@devstudio.com" class="footer-link">info@devstudio.com</a></li>
+          <li>
+            <a href="mailto:info@devstudio.com" class="footer-link">info@devstudio.com</a>
+          </li>
           <li><a href="tel:+380961111111" class="footer-link">+38 096 111 11 11</a></li>
         </ul>
       </address>
     </div>
+    <!-- Посилання на соцмережі  -->
     <div class="footer-invite">
       <h3 class="footer-invite-title">приєднуйтесь</h3>
       <ul class="footer-invite-box">
-        <li><a class="footer-inite-links-container" href="#">
+        <li>
+          <a class="footer-inite-links-container" href="#">
             <svg class="footer-invite-links-icon">
               <use href="./images/sprite.svg#icon-instagram"></use>
             </svg>
-          </a></li>
-        <li><a class="footer-inite-links-container" href="#">
+          </a>
+        </li>
+        <li>
+          <a class="footer-inite-links-container" href="#">
             <svg class="footer-invite-links-icon">
               <use href="./images/sprite.svg#icon-twitter"></use>
             </svg>
-          </a></li>
-        <li><a class="footer-inite-links-container" href="#">
+          </a>
+        </li>
+        <li>
+          <a class="footer-inite-links-container" href="#">
             <svg class="footer-invite-links-icon">
               <use href="./images/sprite.svg#icon-facebook"></use>
             </svg>
-          </a></li>
-        <li><a class="footer-inite-links-container" href="#">
+          </a>
+        </li>
+        <li>
+          <a class="footer-inite-links-container" href="#">
             <svg class="footer-invite-links-icon">
               <use href="./images/sprite.svg#icon-linkedin"></use>
             </svg>
-          </a></li>
+          </a>
+        </li>
       </ul>
     </div>
-  </div>
+    <!-- Форма розсилки -->
+    <form class="subscribe">
+      <div class="subscribe-label">
+        <label class="subcribe-text" for="mail">Підпишіться на розсилку</label>
+        <input  class="subcribe-text-email" type="email" name="mail" id="mail" placeholder="E-mail"/>
+      </div>
+      <div>
+        <button class="subscribe-button" type="submit">
+          <span class="subscribe-button-inside">Підписатися</span>
+          <svg class="subscribe-picture" width="24" height="24">
+            <use href="./images/sprite.svg#icon-form-plane"></use>
+          </svg>
+        </button>
+      </div>
+    </form>
+  
 </footer>
   </body>
 </html>
